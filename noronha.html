@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Adicionando tag para evitar bloqueio de imagens de sites externos (Booking) -->
+    <meta name="referrer" content="no-referrer">
     <title>Noronha Março/27 - Opções</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -100,9 +102,10 @@
             <article class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
                 <div class="relative">
                     <div class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-2 px-2 pt-2 pb-1">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/337190131.jpg?k=3f86eb8c4749f7e4f9b2d28fbe557ed86b2413b57912a78ecf847ff8573215c0&o=&hp=1" alt="Mar de Vênus" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Pousada+Mar+de+Vênus'">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/337190138.jpg?k=66a338cc7cbf7e2f5b6190be9087c0a7f14b62145b23a518006d64932d201cd9&o=&hp=1" alt="Mar de Vênus" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/337190141.jpg?k=1092eb63ef1b9f6f6952cc29158bfcb841e54911d670d8a554030d740c06771d&o=&hp=1" alt="Mar de Vênus" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
+                        <!-- Usando proxy images.weserv.nl para garantir que as fotos do Booking carreguem sem bloqueio -->
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/337190131.jpg" alt="Quarto Mar de Vênus" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Pousada+Mar+de+Vênus'">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/337190138.jpg" alt="Café da Manhã Mar de Vênus" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/337190141.jpg" alt="Banheiro Mar de Vênus" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
                     </div>
                     <div class="absolute top-4 right-4 bg-white/95 px-2 py-1 rounded-lg text-sm font-bold text-gray-800 shadow-md flex items-center gap-1 z-10">
                         <i class="fa-solid fa-star text-yellow-400 text-xs"></i> 8,2
@@ -172,8 +175,9 @@
                 
                 <div class="relative">
                     <div class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-2 px-2 pt-2 pb-1">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/362541819.jpg?k=a9d3a1e4ff015243eec3f135ad06fb714ce9e4b6c3f5efc352a12a514d7a85de&o=&hp=1" alt="Pousada da Carmô" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Pousada+da+Carmô'">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/362541836.jpg?k=8e211ebf67644917452d7e48b8c2c7f4659b794a377d61183120155b9e072b21&o=&hp=1" alt="Pousada da Carmô" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/362541819.jpg" alt="Quarto Pousada da Carmô" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Pousada+da+Carmô'">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/362541836.jpg" alt="Área Externa Carmô" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/362541811.jpg" alt="Piscina Carmô" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
                     </div>
                     <div class="absolute top-4 right-4 bg-white/95 px-2 py-1 rounded-lg text-sm font-bold text-gray-800 shadow-md flex items-center gap-1 z-10">
                         <i class="fa-solid fa-star text-yellow-400 text-xs"></i> 8,2
@@ -238,8 +242,8 @@
             <article class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
                 <div class="relative">
                     <div class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-2 px-2 pt-2 pb-1">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/413009026.jpg?k=7aebec4d6ea6143c3f683457173e6b7d603a987d3dfa0c33a921d7b3dc04c567&o=&hp=1" alt="Pousada Golfinho" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Pousada+Golfinho'">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/413009051.jpg?k=8e46950ff4db90d3d52cbab4d7f7e914ebde2f5c71739c90b8f4115e61d8bc98&o=&hp=1" alt="Pousada Golfinho" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/413009026.jpg" alt="Quarto Pousada Golfinho" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Pousada+Golfinho'">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/413009051.jpg" alt="Área Pousada Golfinho" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
                     </div>
                     <div class="absolute top-4 right-4 bg-white/95 px-2 py-1 rounded-lg text-sm font-bold text-gray-800 shadow-md flex items-center gap-1 z-10">
                         <i class="fa-solid fa-star text-yellow-400 text-xs"></i> 8,4
@@ -307,8 +311,8 @@
 
                 <div class="relative">
                     <div class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-2 px-2 pt-2 pb-1">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/395632386.jpg?k=42f494fbca71e72b4c10c85c2c5dc3f63908f51950c76ce83c3c1e2858b1df78&o=&hp=1" alt="Boldró Home" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Boldró+Home'">
-                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/395632387.jpg?k=5c32729e2fbf401200155b9e072b217e6514d7a85de8e211ebf67644917452d&o=&hp=1" alt="Boldró Home" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/395632386.jpg" alt="Quarto Boldró Home" class="carousel-item h-52 object-cover rounded-2xl shadow-sm" onerror="this.src='https://placehold.co/600x400/0ea5e9/ffffff?text=Boldró+Home'">
+                        <img src="https://images.weserv.nl/?url=cf.bstatic.com/xdata/images/hotel/max1024x768/395632387.jpg" alt="Vista Boldró Home" class="carousel-item h-52 object-cover rounded-2xl shadow-sm">
                     </div>
                     <div class="absolute top-4 right-4 bg-white/95 px-2 py-1 rounded-lg text-sm font-bold text-gray-800 shadow-md flex items-center gap-1 z-10">
                         <i class="fa-solid fa-star text-yellow-400 text-xs"></i> 8,4
